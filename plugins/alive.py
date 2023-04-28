@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/bdf568ec7a4fc7845330b.png",
+        photo=f"https://graph.org/file/e0d51dbfc10c9e59fd5f1.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝙎𝙪𝙥𝙚𝙧𝙁𝙖𝙨𝙩 𝙑𝘾 𝙁𝙪𝙘𝙠𝙚𝙧 
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
@@ -43,11 +43,11 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="repo", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC"),
-                        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=f"https://t.me/{SUPPORT_CHANNEL}"),
-                      InlineKeyboardButton(text="Group", url=f"https://t.me/{SUPPORT_GROUP}"),
+                        text="😣repo😣", url=f"https://t.me/lover_jeer"),
+                        InlineKeyboardButton(text="💞Cʜᴀɴɴᴇʟ💞", url=f"https://t.me/{SUPPORT_CHANNEL}"),
+                      InlineKeyboardButton(text="✨Group✨", url=f"https://t.me/{SUPPORT_GROUP}"),
                   ],[
-                      InlineKeyboardButton(text="CREATER", url=f"https://t.me/{OWNER_USERNAME}")
+                      InlineKeyboardButton(text="❤️‍🔥CREATER❤️‍🔥", url=f"https://t.me/{OWNER_USERNAME}")
                 ]
                 
            ]
@@ -80,7 +80,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(text=
-                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://github.com/VENOM-CRAZY/VENOMxOPxMUSIC")
+                        " ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ ", url=f"https://t.me/lover_jerry")
                 ]
             ]
         ),
