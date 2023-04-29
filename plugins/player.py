@@ -251,7 +251,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "**𝐏𝐥𝐞𝐚𝐬𝐞 𝐓𝐲𝐩𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐍𝐚𝐦𝐞 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬i𝐜...**"
             )
-        await lel.edit("**𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠  𝐓𝐨  𝐒𝐞𝐫𝐯𝐞𝐫🩸...**")
+        await lel.edit("*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -326,7 +326,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**𝐏𝐥𝐚𝐲𝐢𝐧𝐠🎸**".format(),
+            caption="*•.¸♡✫❤️‍🔥ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴋᴀɴᴄʜᴀɴ ❤️‍🔥✨🍃".format(),
            )
 
     os.remove("final.png")
