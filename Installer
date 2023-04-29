@@ -4,7 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 future
-https://github.com/Samdaveloper/yt-dlp
+https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 motor
 pillow
 psutil
